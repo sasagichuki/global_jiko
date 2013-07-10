@@ -96,11 +96,11 @@
             <div class="large-12 columns">
                 <h5>Characteristics</h5>
                 <form action="#" method="post">
-                    <input type="checkbox">&#160; Fan<br>
-                    <input type="checkbox">&#160; Heating<br>
-                    <input type="checkbox">&#160; Plancha<br>
-                    <input type="checkbox">&#160; Rocket<br>
-                    <input type="checkbox">&#160; Wick
+                    <input type="checkbox" value="Fan" class="check">&#160; Fan<br>
+                    <input type="checkbox" value="Heating" class="check">&#160; Heating<br>
+                    <input type="checkbox" value="Plancha" class="check">&#160; Plancha<br>
+                    <input type="checkbox" value="Rocket" class="check">&#160; Rocket<br>
+                    <input type="checkbox" value="Wick" class="check">&#160; Wick
                 </form>
                 <a href="#">more options</a>
             </div>
@@ -109,11 +109,11 @@
             <div class="large-12 columns">
                 <h5>Fuels</h5>
                 <form action="#" method="post">
-                    <input type="checkbox">&#160; Agricultural waste<br>
-                    <input type="checkbox">&#160; Charcoal<br>
-                    <input type="checkbox">&#160; Dung<br>
-                    <input type="checkbox">&#160; Wood<br>
-                    <input type="checkbox">&#160; Kerosene
+                    <input type="checkbox" value="Agricultural waste" class="check">&#160; Agricultural waste<br>
+                    <input type="checkbox" value="Charcoal" class="check">&#160; Charcoal<br>
+                    <input type="checkbox" value="Dung" class="check">&#160; Dung<br>
+                    <input type="checkbox" value="Wood" class="check">&#160; Wood<br>
+                    <input type="checkbox" value="Kerosene" class="check">&#160; Kerosene
                 </form>
                 <a href="#">more options</a>
             </div>
@@ -122,11 +122,11 @@
             <div class="large-12 columns">
                 <h5>Geography</h5>
                 <form action="#" method="post">
-                    <input type="checkbox">&#160; Asia<br>
-                    <input type="checkbox">&#160; Central America and Caribbean<br>
-                    <input type="checkbox">&#160; Middle East and North Africa<br>
-                    <input type="checkbox">&#160; South America<br>
-                    <input type="checkbox">&#160; Sub-saharan Africa<br>
+                    <input type="checkbox" value="Asia" class="check">&#160; Asia<br>
+                    <input type="checkbox" value="Central America and Caribbean" class="check">&#160; Central America and Caribbean<br>
+                    <input type="checkbox" value="Midle East and North Africa" class="check">&#160; Middle East and North Africa<br>
+                    <input type="checkbox" value="South America" class="check">&#160; South America<br>
+                    <input type="checkbox" value="Sub-saharan Africa" class="check">&#160; Sub-saharan Africa<br>
                 </form>
             </div>
         </div>
@@ -145,7 +145,7 @@
         </div>
         <hr>
         <div class="row">
-            Filters applied
+            Filters applied: <span id="filters"></span>
         </div>
         <hr>
         <div class="row">
@@ -407,6 +407,7 @@
 </script>
 
 <script src="js/foundation.min.js"></script>
+<script src="js/main.js"></script>
 <!--
 
 <script src="js/foundation/foundation.js"></script>
