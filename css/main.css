@@ -2,13 +2,25 @@
     font-family: 'Open Sans', sans-serif;
 }
 .top{
-background: #47A6A2;
+    /*background: #ff0000;*/
+    background: #47A6A2;
+    margin: -16px 0px 25px 0px;
+    height: 150px
+}
 
+.header{
+    
+}
+
+.site-title{
+    height: 112px;
+    padding: 22px 0px 22px 0px;
 }
 
 .logo-pad{
     height: 131px;
     width: 260px;
+    margin-top: 18px;
 }
 
 .results {
