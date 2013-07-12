@@ -1,6 +1,15 @@
 * {
     font-family: 'Open Sans', sans-serif;
 }
+.top{
+background: #47A6A2;
+
+}
+
+.logo-pad{
+    height: 131px;
+    width: 260px;
+}
 
 .results {
     background-color: #c0c0c0;
@@ -45,19 +54,19 @@ body {
 
 nav {
     /*height: 40px;*/
-    width: 100%;
+    /*width: 100%;
     background: #ddd;
     font-size: 11pt;
     font-family: 'PT Sans', Arial, sans-serif;
     font-weight: bold;
     position: relative;
-    border-bottom: 2px solid #283744;
+    border-bottom: 2px solid #283744;*/
 }
 nav ul {
-    padding: 0;
+   /* padding: 0;
     margin: 0 auto;
     width: 600px;
-    height: 40px;
+    height: 40px;*/
 }
 
 nav li {
