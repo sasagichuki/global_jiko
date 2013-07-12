@@ -84,6 +84,7 @@ nav ul {
 nav li {
     display: inline;
     float: left;
+    /*padding: 0px 5px 0px 5px;*/
 }
 
 .clearfix:before,
@@ -123,6 +124,12 @@ nav li:last-child a {
 
 nav a:hover, nav a:active {
     background-color: #fff;
+    color: #025252;
+}
+
+.active > a {
+    background-color: #fff;
+    color: #025252;
 }
 
 
