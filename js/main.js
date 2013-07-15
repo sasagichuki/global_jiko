@@ -12,6 +12,9 @@ $(".check").click(function() {
     }
 });
 
+var url = window.location;
+        $('.menu a[href="'+url+'"]').addClass('active');
+
 // $(function () {
 //     setNavigation();
 // });
